@@ -1,0 +1,204 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+				.img-wrapper {
+					width: 145%;
+					height: 104%;
+					position: absolute;
+					top: 37px;
+					left: 65px;
+				}
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+			
+			.img-wrapper {
+				width: 150%;
+				height: 107%;
+				position: absolute;
+				top: 4px;
+				left: 41px;
+			}
+			.animate-area>span {
+				letter-spacing: 10px;
+				font-size: 50px;
+				color: #ff3d4f;
+			}
+			.slider-area {
+				background: url(../img/bg/home.jpg) repeat-x;
+				min-height: 475px;
+				background-attachment: fixed;
+				position: relative;
+			}
+			.col-lg-new-4 {
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 33.333333%;
+				flex: 0 0 33.333333%;
+				max-width: 30.333333%;
+				margin-right: 20px;
+			}
+			.count-wrap>span {
+				font-weight: 500;
+				text-transform: uppercase;
+				font-weight: bold;
+				text-shadow: 1px 1px black;
+				font-size: 16px;
+				color: #ff3d4f;
+				position: relative;
+				z-index: 100;
+			}
+			.invite-wrapper {
+				position: relative;
+				background: #f6f6f6;
+				padding: 59px 0px 40px;
+			}
+			.play-area img {
+				top: 405px;
+			}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+			.col-lg-new-4 {
+					-webkit-box-flex: 0;
+					-ms-flex: 0 0 33.333333%;
+					flex: 1 0 33.333333%;
+					max-width: 100%;
+					margin-right: 20px;
+					margin-bottom: 68px;
+			}
+			.animate-area>span {
+					letter-spacing: 10px;
+					font-size: 50px;
+					color: #ff3d4f;
+			}
+			.slider-area {
+					background: url(../img/bg/home.jpg) repeat-x;
+					min-height: 450px;
+					background-attachment: fixed;
+					position: relative;
+			}
+			.play-button-area{
+					padding-top: 10px;
+			}
+			#skills-area img {
+			
+					padding-left: 100px;
+			}
+			.single-slider {
+					margin-top: 30px;
+			}
+			.about-me-area h2 {
+					font-size: 65px;
+			}
+	}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+		.animate-area>span {
+				letter-spacing: 10px;
+				font-size: 50px;
+				color: #ff3d4f;
+		}
+		.about-me-area h2 {
+				font-size: 39px;
+				margin-bottom: 15px;
+				line-height: 1.3;
+		}
+		
+		.single-slider {
+				margin-top: 30px;
+		}
+		.play-button-area{
+				padding-top: 10px;
+		}
+		.slider-area {
+				min-height: 420px;
+		}
+		.icon-wrapper {
+				
+				padding-bottom: 50px;
+			
+		}
+		.col-lg-new-4 {
+					-webkit-box-flex: 0;
+					-ms-flex: 0 0 33.333333%;
+					flex: 0 0 100%;
+					max-width: 100%;
+					margin-right: 0;
+		}
+		.mb-35 {
+			margin-bottom: 0px !important;
+		}
+		.navbarNav{
+			visibility:hidden;
+		}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media (min-width: 350px) and (max-width: 575px) {
+
+		.navbarNav{
+			visibility:hidden;
+		}
+		.navbar-nav {
+			padding-left: 0px;
+		}
+		.navbar {
+			padding: 0.5rem 2rem !important;
+		}
+		.pl-70 {
+			padding-left: 15px !important;
+		}
+		.col-lg-7{padding-right: 0px;}
+		.navbarNav {
+			visibility: hidden;
+		}
+		.animate-area>span {
+			
+			font-size: 30px;
+			
+		}
+		.about-information h3 {
+			font-size: 20px;
+		}
+		h3 {
+			font-size: 25px;
+		}
+		p {
+			font-size: 16px !important;
+		}
+		.about-headline {
+			margin-bottom: 30px;
+		}
+		.py-70 {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		#resume-area h3 {
+			font-size: 2.6rem;
+		}
+		img {
+			width: 100%;
+		}
+		.mind-wrapper h2 {
+			font-size: 35px;
+			line-height: 1.3;
+			margin-bottom: 24px;
+			text-align: center;
+		}
+		
+}
+/* Time countdown :480px. */
+@media(max-width: 991px) {
+		#clockdiv{
+						display:none;
+					}
+}
